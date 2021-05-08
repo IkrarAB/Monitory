@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sayhai"
+    android:background="@color/whitethree">
+
+    <TextView
+        android:id="@+id/beres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="28sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        android:text="Beres! Sekarang " />
+
+    <TextView
+        android:id="@+id/valnama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/beres"
+        android:layout_toEndOf="@id/beres"
+        android:layout_alignBottom="@id/beres"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="28sp"
+        android:text="kamu"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/udahbisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beres"
+        android:layout_alignLeft="@id/beres"
+        android:layout_alignStart="@id/beres"
+        android:text="udah bisa ngecek"
+        android:textSize="28sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/penggunaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udahbisa"
+        android:layout_alignLeft="@id/beres"
+        android:layout_alignStart="@id/beres"
+        android:text="penggunaan HP mu"
+        android:textSize="28sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tiaphari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/penggunaan"
+        android:layout_alignLeft="@id/beres"
+        android:layout_alignStart="@id/beres"
+        android:text="tiap hari buat bantu "
+        android:textSize="28sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/valnama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tiaphari"
+        android:layout_toEndOf="@id/tiaphari"
+        android:layout_alignBottom="@id/tiaphari"
+        android:fontFamily="@font/nunito_bold"
+        android:text="kamu"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/ngaturwaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiaphari"
+        android:layout_alignLeft="@id/beres"
+        android:layout_alignStart="@id/beres"
+        android:text="ngatur waktu :)"
+        android:textSize="28sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom1"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Oke"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitethree"
+    tools:context=".Welcome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/separator">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_get_start_timitory"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/txtwelcome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitory Membantu Anda"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mengontrol HP Anak"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtwelcome1"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        android:textSize="21sp"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/relativelayout2"
+        android:background="@color/coolgrey"/>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/custom1"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Mulai"
+            android:onClick="pindahKeLogin"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
